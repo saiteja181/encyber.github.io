@@ -1,0 +1,215 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cyber Crimes</title>
+<link rel="icon" type="image/x-icon" href="encyber.jpg">
+<meta charset="utf-8">
+<meta name="description" content="cyber crimes">
+  <meta name="keywords" content="how to secure,cyber attacks,cyber news">
+  <meta name="author" content="SAI TEJA KURAMDASU">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-image: url('back.jpg');
+ height:auto;
+ width:auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+  height: 1100px; 
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.button {
+  border: none;
+  
+  color: BLACK;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid ;
+}
+
+.button1:hover {
+  background-color:BLACK;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid;
+}
+
+.button2:hover {
+  background-color:BLACK;
+  color: white;
+}
+button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: black;
+  color: white;
+}
+
+.next {
+  background-color: red;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  img{
+      width:100%;
+      height:auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2><img src="encyber.jpg" alt="ENCYBER" style="width:20%; ><h2/>
+<h3 style="color:red;text-align:right"> &nbsp &nbsp&nbsp &nbsp&nbsp </h3>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><button class="button button1" id="home"> HOME </button></li>
+      <li> &nbsp<li/>
+      <li><button class="button button2" id="cyberattacks"> CYBER ATTACKS </button></li>
+      <li> &nbsp<li/>
+      <li><button class="button button1" id="protect"> HOW TO SECURE </button></li>
+      <li> &nbsp <li/>
+      <li><button class="button button2 "id="cybernews"> CYBER NEWS (RECENT) </button></li>
+      <li> &nbsp <li/>
+      <li><button class="button button1">ABOUT US </button></li>
+    <li> &nbsp <li/>
+</ul>
+  </nav>
+  
+  <article>
+<h3 style="color:red;text-align:left">CYBER NEWS<h3/>
+<button class=" previous" id="previous"> &laquo; Previous</button>
+<button  class="next" id="next">Next &raquo;</button>
+
+<h2 style="color:darkviolet;text-align:center">Cyber crime: Fraudsters cheat three people, including Air Force personnel<h2/>
+<p> QuickSupport is an app used to remotely access phone or computer screens. The victims were cheated last month and the FIRs were registered after a probe on Thursday, police said.<p/>
+<img src="hacker.jpg" alt="money" style="width:50%">
+<h3>
+<p>Online fraudsters cheated three people including an Air Force personnel, by sending them messages on the pretext of pending electricity bills or new connections. The accused made them install a mobile application, QuickSupport, to pay the pending bills and transferred money into their accounts. QuickSupport is an app used to remotely access phone or computer screens. The victims were cheated last month and the FIRs were registered after a probe on Thursday, police said.
+<p/>
+<p>Police said that the Air Force personnel, Ravinder Kumar Dhir, lost Rs 3,26,500 when he dialled a helpline number of Punjab State Power Corporation Limited (PSPCL), after getting it online to apply for an electricity connection for his house in Mohali. He reported that he followed the instructions and the money was debited from his account.
+<p/>
+<p>Amanpreet Singh of Sector 15 reported that he had received a text message on his phone regarding the pending payment
+of his house’s electricity bill on August 13. He reported that he dialled the number mentioned in the message and the caller told him to install a link, which was sent to him for payment of the bill. Sources said that as Amanpreet opened the link, Rs 12,76,940 was debited from his bank account.<p/>
+ <h3/></article></section> 
+<script type="text/javascript">
+    document.getElementById("home").onclick = function () {
+        location.href = "index.html";
+    };
+document.getElementById("cyberattacks").onclick = function () {
+        location.href = "cyberattacks.html";
+    };
+    document.getElementById("protect").onclick = function () {
+        location.href = "howtosecure.html";
+    };
+document.getElementById("cybernews").onclick = function () {
+        location.href = "news1.html";
+    };
+document.getElementById("next").onclick = function () {
+        location.href = "news1.html";
+    };
+document.getElementById("previous").onclick = function () {
+        location.href = "news2.html";
+    };
+</script>
+
+<footer>
+  <p> +91 9121945249<br>
+<a href="mailto:kuramdasusaiteja@gmail.com">kuramdasusaiteja@gmail.com</a><br>visakhapatnam,Andhra Pradesh</p>
+
+</footer>
+
+</body>
+</html>
